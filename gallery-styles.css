@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .gallery.section-1 {
     height: 800px;
     background-image: url(assets/desktop/image-hero.jpg);
@@ -21,7 +20,7 @@
 } 
 .title {  
     text-transform: uppercase;
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display';
     font-size: 96px;
     font-weight: 900;
     color: #ffffff;
