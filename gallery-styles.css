@@ -81,12 +81,6 @@
 .tab .text a:hover {
     cursor: pointer;
 }
-/* .location.tab:hover {
-    background-color: #D5966C;
-}
-.arrow:hover {
-    background-color: #151515;
-} */
 .arrow {
     background-color: #D5966C;
     position: absolute;
@@ -98,27 +92,20 @@
 .left-arrow {
     position: absolute;
     left: 24px;
-    top: 24px;
-    
+    top: 24px;   
 }
-
-
 .gallery.section-2 {
     margin: 153px 164px 209px 165px;   
 }
 .display-text--container {
-    
     display: flex;
-    /* margin-right: 0px; */
     background-image: url(assets/desktop/image-grid-1.jpg);
     background-repeat: no-repeat;
-    background-position: 475px;
-    
+    background-position: 475px 0px;  
 }
 .description {
     margin-top: 20px;
-    margin-right: 0px;
-    
+    margin-right: 0px;  
 }
 .description .your-day{
     height: 120px;
@@ -138,9 +125,7 @@
     font-weight: 300;
     line-height: 32px;
     letter-spacing: 0px;
-    text-align: left;
-    margin-top: px;
-       
+    text-align: left;    
 }
 .images-container {
     margin-top: 30px;
@@ -150,15 +135,13 @@
     background-position: 0px, 665px 0px; 
     display: grid;
 }
-
 .welcome {
     width: 380px;
     margin-top: 339.66px;
     background-color: #151515;
     color: #ffffff;
     padding: 64.89px 47px 63.89px 48px;
-    margin-left: 665px;
-    
+    margin-left: 665px;  
 }
 .welcome span {
     height: 120px;
@@ -168,8 +151,7 @@
     font-weight: 900;
     line-height: 60px;
     text-transform: uppercase;
-    letter-spacing: 0px;
-    text-align: left;
+    letter-spacing: 0px;   
 }
 .welcome .collections{
     height: 90px;
@@ -178,9 +160,7 @@
     font-size: 22px;
     font-weight: 300;
     line-height: 32px;
-    text-align: left;
     margin-top: 32px;
-
 }
 
 .footer {
@@ -192,8 +172,7 @@
     display: flex;
     color: #ffffff;
     width: 100%;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 .footer--logo {
     width: 20%;
@@ -205,7 +184,6 @@
     text-transform: uppercase;
     font-weight: 900;
     line-height: 27px;
-
 }
 .footer--description {
     width: 30%;
@@ -218,7 +196,6 @@
     line-height: 28px;
     letter-spacing: 0px;
     text-align: left;
-
 }
 .social-media--icons {
     width: 20%;
@@ -237,7 +214,6 @@
         display: none;
     }
     .gallery.section-1 {
-        /* height: 700px; */
         background-image: url(assets/tablet/image-hero.jpg);
         background-repeat: no-repeat;
         background-position: 0px 0px;
@@ -253,7 +229,6 @@
         left: 389px;
         top: 145px;
         mix-blend-mode: normal;
-       
     }
     .inspiration {
         height: 112px;
@@ -262,7 +237,6 @@
         line-height: 28px;
         left: 389px;
         top: 323px;
-    
     }
     .location.tab {
         width: 260px;
@@ -283,7 +257,6 @@
         font-size: 50px;
         line-height: 45px;
     }    
-    
     .distinct {
         height: 140px;
         width: 223px;
@@ -337,7 +310,6 @@
         background-image: url(assets/mobile/image-hero.jpg);
         background-repeat: no-repeat;
         background-position: 0px 0px;
-
     }
     .title {
         height: 110px;
@@ -366,8 +338,6 @@
             margin: 135px 16px 105px 16px;
     }
     .display-text--container {
-      /* display: flex; */
-      /* align-content: flex-start; */
       margin-right: 0px;
       background-image: url(assets/mobile/image-grid-1.jpg);
       background-repeat: no-repeat;
@@ -391,12 +361,13 @@
       line-height: 28px;
     }
     .images-container {
-      margin-top: 30px;
-      margin-left: 0px;
-      background-image: url(assets/mobile/image-grid-2.jpg), url(assets/mobile/image-grid-3.jpg);
-      background-repeat: no-repeat;
-      background-position: 0px 12px, 0px 504px;
-      display: grid;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+        background-image: url(assets/mobile/image-grid-2.jpg), url(assets/mobile/image-grid-3.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px 12px, 0px 504px;
+        display: grid;
     }
     .welcome {
       width: 343px;
@@ -419,37 +390,30 @@
       line-height: 28px;
       margin-top: 16px;
     }
-
     .footer {
         width: 100%;
         height: 336px;
-    
     }
-    
     .footer--container {
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         gap: 10px;
         padding: 48px 32px;
     }
-    
     .footer--logo {
         width: 30%;
         font-size: 20px;
         line-height: 20px;
     }
-    
     .footer--description {
         width: 100%;
         font-size: 16px;
         font-weight: 26px;
+        line-height: 26px;
     }
-    
     .social-media--icons {
-        width: 25%;
+        width: 35%;
         gap: 10px;
     }
-
-
 
 }
