@@ -49,7 +49,7 @@
     height: 548px;
     display: flex;
     justify-content: space-around;
-    padding: 104px 165px 128px;
+    padding: 6rem 8rem 6.5rem;
     color: #fff;
     gap: 20%;
 }
@@ -128,29 +128,39 @@
     cursor: pointer;
 }
 
-@media only screen and (481px <= width <= 768px) {
+@media only screen and (481px <= width <= 820px) {
     .map-container {
         background-image: url(assets/tablet/image-map.png);
         height: 600px;
     }
-    .location.tab {
+    /* .location.tab {
         display: none;
-    }
+    } */
     .address-container {
+        width: 100%;
         height: 436px;
-        padding: 88px 40px 80px 39px;
+        justify-content: space-between;
+        /* align-items: flex-start; */
+        padding: 4.5rem 1.8rem 4rem;
     }
     .title {
-        font-size: 55px;
-        line-height: 50px;
+        font-size: 3rem;
+        line-height: 2.8rem;
     }
+    /* .direction {
+        align-self: flex-start;
+    } */
     .direction span {
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 1.8rem;
+        line-height: 1.8rem;
     }
     .direction p {
         font-size: 18px;
         line-height: 28px;
+    }
+    .description{
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
     .footer {
         height: 216px;
@@ -163,8 +173,11 @@
         font-size: 16px;
         line-height: 26px;
     }
+    .social-media--icons {
+        gap: 1rem;
+    }
 }
-@media only screen and (320px <=width <= 480px) {
+@media only screen and (180px <=width <= 480px) {
     .map-container {
             background-image: url(assets/mobile/image-map.png);
             height: 550px;
@@ -181,17 +194,21 @@
     }
     .address-container {
         height: 493px;
-        padding: 48px 16px 54px;
-        flex-direction: column;  
+        padding: 3.6rem 1rem 3rem;
+        flex-direction: column; 
+        gap: 8%; 
     }
     .title {
-        font-size: 50px;
-        line-height: 45px;
+        font-size: 2.8rem;
+        line-height: 2.8rem;
         word-break: break-all;
     }
+    /* .direction {
+        margin-top: 3rem;
+    } */
     .direction span {
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 2rem;
+        line-height: 2rem;
     }
     .direction p {
         font-size: 18px;

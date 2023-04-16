@@ -10,9 +10,9 @@
     height: 800px;
     background-image: url(assets/desktop/image-hero.jpg);
     background-repeat: no-repeat;
-    background-position: 441px 0px;
+    background-position: 27.5rem 0;
     display: grid;
-    grid-template-columns: 450px 540px;
+    grid-template-columns: 28rem 33rem;
     position: relative;
 }
 .blank-space {
@@ -21,47 +21,66 @@
 .title {  
     text-transform: uppercase;
     font-family: 'Big Shoulders Display';
-    font-size: 96px;
+    font-size: 6rem;
     font-weight: 900;
     color: #ffffff;
-    line-height: 88px;
+    line-height: 5.5rem;
     letter-spacing: 0px;
     text-align: left;
-    height: 176px;
-    width: 514px;
+    height: 11rem;
+    width: 32rem;
     position: absolute;
-    left: 165px;
-    right: -50.89%;
-    top: 190px;
+    left: 10rem;
+    /* right: -50.89%; */
+    top: 11.8rem;
     mix-blend-mode: difference;
 }     
 .inspiration {
     color: #444444;
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
-    font-size: 22px;
-    line-height: 32px;
-    height: 160px;
-    width: 350px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    height: 10rem;
+    width: 21rem;
     position: absolute;
-    left: 925px;
-    top: 190px;
+    left: 53rem;
+    top: 11.8rem;
 }
 .location.tab {
-    width: 260px;
-    height: 72px;
+    width: 16rem;
+    height: 4.5rem;
     position: absolute;
-    left: 925px;
-    top: 414px;
-} 
-.location.tab .text {
+    left: 53rem;
+    top: 25.8rem;
     background-color: #151515;
+} 
+.location.tab:hover {
+    background-color: #D5966C;
+    cursor: pointer;
+}
+/* .location.tab:nth-child(2):hover {
+    background-color: #151515;
+}       */
+.location.tab .text {
     position: absolute;
     height: 72px;
     width: 204px;
     left: 0px;
     top: 0px;
 }
+/* .location.tab:nth-child(1) {
+    background-color: #151515;
+}
+.location.tab:nth-child(1):hover {
+    background-color: #D5966C;
+}
+.location.tab:nth-child(2) {
+    background-color: #D5966C;
+}
+.location.tab:nth-child(2):hover{
+    background-color: #151515;
+} */
 .tab .text span {
     position: absolute;
     text-transform: uppercase;
@@ -78,78 +97,81 @@
     text-decoration: none;
     color: #ffffff;   
 }
-.tab .text a:hover {
-    cursor: pointer;
-}
 .arrow {
     background-color: #D5966C;
     position: absolute;
-    height: 72px;
-    width: 56px;
-    left: 204px;
+    height: 4.5rem;
+    width: 3.5rem;
+    left: 12.7rem;
     top: 0px;
+}
+.arrow:hover {
+    background-color: #151515;
 }
 .left-arrow {
     position: absolute;
-    left: 24px;
-    top: 24px;   
+    left: 1.5rem;
+    top: 1.5rem;   
 }
 .gallery.section-2 {
-    margin: 153px 164px 209px 165px;   
+    margin: 9.5rem 2rem 13rem 8rem;   
+    background-color: aqua;
 }
 .display-text--container {
     display: flex;
+    /* gap: 1.5rem; */
     background-image: url(assets/desktop/image-grid-1.jpg);
     background-repeat: no-repeat;
-    background-position: 475px 0px;  
+    background-position: 29.8rem 0px;  
 }
 .description {
-    margin-top: 20px;
+    margin-top: 1rem;
     margin-right: 0px;  
 }
 .description .your-day{
-    height: 120px;
-    width: 350px;
+    height: 7.5rem;
+    width: 21rem;
     font-family: 'Big Shoulders Display';
-    font-size: 60px;
+    font-size: 3.7rem;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 3.7rem;
     text-transform: uppercase;
     letter-spacing: 0px;
 }
 .distinct {
-    height: 128px;
-    width: 350px;
+    height: 8rem;
+    width: 21rem;
     font-family: 'Outfit';
-    font-size: 22px;
+    font-size: 1.2rem;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 2rem;
     letter-spacing: 0px;
     text-align: left;    
 }
 .images-container {
-    margin-top: 30px;
+    margin-top: 1.8rem;
     margin-left: 0px;
     background-image: url(assets/desktop/image-grid-2.jpg), url(assets/desktop/image-grid-3.jpg);
     background-repeat: no-repeat;
-    background-position: 0px, 665px 0px; 
+    background-position: 0px, 41rem 0px; 
     display: grid;
+    
 }
 .welcome {
-    width: 380px;
-    margin-top: 339.66px;
+    width: 27.8rem;
+    margin-top: 21em;
     background-color: #151515;
     color: #ffffff;
-    padding: 64.89px 47px 63.89px 48px;
-    margin-left: 665px;  
+    padding: 4em 2.9em;
+    margin-left: 41rem;  
 }
 .welcome span {
-    height: 120px;
-    width: 350px;
+    height: 7.5rem;
+    width: 21rem;
     font-family: 'Big Shoulders Display';
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 3.75rem;
     text-transform: uppercase;
     letter-spacing: 0px;   
 }
@@ -157,33 +179,35 @@
     height: 90px;
     width: 300px;
     font-family: 'Outfit'; 
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 300;
-    line-height: 32px;
-    margin-top: 32px;
+    line-height: 2rem;
+    margin-top: 2em;
 }
 
 .footer {
-	height: 244px;
+    /* width: 100%; */
+	height: 15.25rem;
 	background-color: #151515;
     display: flex;
 }
 .footer--container {
     display: flex;
     color: #ffffff;
-    width: 100%;
-    justify-content: space-between;  
+    /* width: 100%; */
+    justify-content: space-evenly; 
+    /* gap: 1em;  */
 }
 .footer--logo {
-    width: 20%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Big Shoulders Display';
-    font-size: 30px;
+    font-size: 1.875rem;
     text-transform: uppercase;
     font-weight: 900;
-    line-height: 27px;
+    line-height: 1.68em;
 }
 .footer--description {
     width: 30%;
@@ -191,25 +215,25 @@
     align-items: center;
     justify-content: center;
     font-family: 'Outfit';
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 300;
-    line-height: 28px;
+    line-height: 1.75em;
     letter-spacing: 0px;
     text-align: left;
 }
 .social-media--icons {
-    width: 20%;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25em;
 }
 .icon:hover path {
     fill: #D5966C;
     cursor: pointer;
 }
 
-@media only screen and (481px <= width <= 768px) {
+@media only screen and (481px <= width <= 820px) {
     .blank-space {
         display: none;
     }
@@ -245,61 +269,69 @@
         top: 483px;
     }
     .gallery.section-2 {
-        margin: 120px 40px 120px 39px;
+        /* margin: 7rem 2rem; */
     }
     .display-text--container {
         background-image: url(assets/tablet/image-grid-1.jpg);
-        background-position: 291px;
+        background-position: 16rem;
     }
     .description .your-day {
         width: 223px;
         height: 135px;
-        font-size: 50px;
+        font-size: 3rem;
         line-height: 45px;
     }    
     .distinct {
-        height: 140px;
-        width: 223px;
-        font-size: 18px;
-        line-height: 28px;
+        height: 8.75rem;
+        width: 13.9rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
     }
     .images-container {
-        margin-top: 30px;
+        margin-top: 1.875rem;
         margin-left: 0px;
         background-image: url(assets/tablet/image-grid-2.jpg), url(assets/tablet/image-grid-3.jpg);
-        background-position: 0px 0px, 409px 0px;
+        background-position: 0px 0px, 25.6rem 0px;
     }
    .welcome {
-       width: 280px;
-       height: 396px;
-       margin-top: 320px;
-       margin-left: 409px;
-       padding: 85px 28px 85px 29px;    
+       width: 17.5rem;
+       height: 24.75rem;
+       margin-top: 20rem;
+       margin-left: 25.6rem;
+       padding: 5.3rem 1.75rem 5.3rem 1.8rem;    
     }
    .welcome span {
-      height: 90px;
-      width: 223px;
-      font-size: 50px;
-      line-height: 45px;
+      height: 5.5rem;
+      width: 14rem;
+      font-size: 3rem;
+      line-height: 2.5rem;
     }  
   .welcome .collections {
-      height: 112px;
-      width: 223px;
-      font-size: 18px;
-      line-height: 28px;
-      margin-top: 24px;
+      height: 7rem;
+      width: 13.9rem;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      margin-top: 1.5rem;
     }
    .footer {
-       height: 216px;
+       height: 13.5rem;
+       justify-content: space-between;
+    }
+    .footer--logo {
+        width: 22%;
     }
    .footer--description {
-       width: 281px;
-       font-size: 16px;
-       line-height: 26px;
+       width: 30%;
+       font-size: 1rem;
+       line-height: 1.625re;
+    }
+    .social-media--icons {
+        width: 20%;
+        gap: 1.5rem;
     }
    
 }
-@media only screen and (320px <= width <= 480px) {
+@media only screen and (280px <= width <= 480px) {
     .blank-space {
         display: none;
     }
@@ -312,30 +344,38 @@
         background-position: 0px 0px;
     }
     .title {
-        height: 110px;
-        width: 343px;
-        font-size: 60px;
-        line-height: 55px;
-        left: 16px;
-        top: 272px;
+        height: 6.8rem;
+        width: 18.2rem;
+        font-size: 3.3rem;
+        line-height: 3.3rem;
+        left: 1rem;
+        top: 17rem;
         color: #151515;
     }
    .inspiration {
        font-size: 18px;
        line-height: 28px;
-       height: 112px;
-       width: 343px;
-       left: 16px;
-       top: 414px;
+       height: 7rem;
+       width: 17rem;
+       left: 1rem;
+       top: 25.8rem;
     }
    .location.tab {
-       width: 260px;
-       height: 72px;
-       left: 16px;
-       top: 558px;
+       width: 15rem;
+       height: 4.5rem;
+       left: 1rem;
+       top: 36.5rem;
+    }
+    .location.tab .text {
+        height: 4rem;
+        width: 12rem;
+    }
+   .arrow {
+       height: 4.5rem;
+       width: 3rem
     }
     .gallery.section-2 {
-            margin: 135px 16px 105px 16px;
+        margin: 8rem 1rem 6rem 1rem;
     }
     .display-text--container {
       margin-right: 0px;
@@ -345,23 +385,23 @@
       flex-direction: column;
     }
     .display-text--container .description {
-      margin-top: 380px;
+      margin-top: 23rem;
       margin-right: 0px;
     }
     .description .your-day {
-      height: 90px;
-      width: 343px;
-      font-size: 50px;
-      line-height: 45px;
+      height: 5.6rem;
+      width: 18rem;
+      font-size: 3rem;
+      line-height: 2.8rem;
     }
     .distinct {
-      height: 112px;
-      width: 343px;
-      font-size: 18px;
-      line-height: 28px;
+      height: 7rem;
+      width: 17.5rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
     }
     .images-container {
-        width: 100%;
+        /* width: 100%; */
         margin-top: 30px;
         margin-left: 0px;
         background-image: url(assets/mobile/image-grid-2.jpg), url(assets/mobile/image-grid-3.jpg);
@@ -370,50 +410,50 @@
         display: grid;
     }
     .welcome {
-      width: 343px;
-      height: 293px;
+      width: 15.8rem;
+      height: 18rem;
       margin-top: 714px;
-      padding: 48px 24px 47px 24px;
+      padding: 3rem 1.5rem;
       margin-left: 0px;
       
     }
     .welcome span {
-      width: 295px;
-      height: 90px;
-      font-size: 50px;
-      line-height: 45px;
+      width: 20rem;
+      height: 5.5rem;
+      font-size: 3rem;
+      line-height: 3.6rem;
     }
     .welcome .collections {
-      height: 84px;
-      width: 245px;
-      font-size: 18px;
-      line-height: 28px;
-      margin-top: 16px;
+      height: 5rem;
+      width: 14.5rem;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      margin-top: 1rem;
     }
     .footer {
-        width: 100%;
+        /* width: 100%; */
         height: 336px;
     }
     .footer--container {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         gap: 10px;
-        padding: 48px 32px;
+        padding: 3rem 2rem;
     }
     .footer--logo {
         width: 30%;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
     }
     .footer--description {
         width: 100%;
-        font-size: 16px;
-        font-weight: 26px;
-        line-height: 26px;
+        font-size: 1rem;
+        font-weight: 1.5rem;
+        line-height: 1.5rem;
     }
     .social-media--icons {
-        width: 35%;
-        gap: 10px;
+        width: 37%;
+        gap: 0.7rem;
     }
 
 }
