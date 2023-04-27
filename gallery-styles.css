@@ -132,7 +132,7 @@
     display: grid;
 }
 .welcome {
-    width: 445px;
+    width: 440px;
     margin-top: 339.66px;
     background-color: #151515;
     color: #ffffff;
@@ -308,8 +308,9 @@
     }
     
     .gallery-section--one {
-        height: 600px;
         background-image: url(assets/mobile/image-hero.jpg);
+        margin: 0; 
+        padding: 0;
         background-repeat: no-repeat;
         background-position: 0px 0px;
     }
@@ -392,6 +393,7 @@
       margin-top: 16px;
     }
     .footer {
+        width: 100vw;
         height: 336px;
         padding: 48px 32px;
     
