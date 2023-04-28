@@ -140,7 +140,6 @@
 }
 .welcome span {
     height: 120px;
-    width: 350px;
     font-family: 'Big Shoulders Display';
     font-size: 60px;
     font-weight: 900;
@@ -151,7 +150,6 @@
 }
 .welcome .collections {
     height: 90px;
-    width: 300px;
     font-family: 'Outfit';
     font-size: 22px;
     font-weight: 300;
