@@ -267,7 +267,6 @@
         background-position: 0px 0px, 409px 0px;
     }
     .welcome {
-       width: 280px;
        height: 396px;
        margin-top: 320px;
        margin-left: 409px;
@@ -275,13 +274,11 @@
     }
     .welcome span {
       height: 90px;
-      width: 223px;
       font-size: 50px;
       line-height: 45px;
     }  
     .welcome .collections {
       height: 112px;
-      width: 223px;
       font-size: 18px;
       line-height: 28px;
       margin-top: 24px;
@@ -370,7 +367,6 @@
         display: grid;
     }
     .welcome {
-      width: 343px;
       height: 293px;
       margin-top: 714px;
       padding: 48px 24px 47px 24px;
@@ -378,14 +374,12 @@
       
     }
     .welcome span {
-      width: 295px;
       height: 90px;
       font-size: 50px;
       line-height: 45px;
     }
     .welcome .collections {
       height: 84px;
-      width: 245px;
       font-size: 18px;
       line-height: 28px;
       margin-top: 16px;
